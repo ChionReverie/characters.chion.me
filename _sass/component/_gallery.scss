@@ -7,6 +7,14 @@
 
 .gallery_entry {
   @include vars.flex_child_size;
+
+  cursor: pointer;
+}
+
+.gallery_instructions {
+  text-align: center;
+  font-style: italic;
+  opacity: 0.5;
 }
 
 /** 
