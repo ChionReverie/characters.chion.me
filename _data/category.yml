@@ -1,0 +1,6 @@
+rpg:
+  directory_name: "RPG Characters"
+  directory_path: "/rpg"
+turtle:
+  directory_name: "TurtleWoW Characters"
+  directory_path: "/turtle"

@@ -4,11 +4,27 @@
         sidebar.classList.toggle('active');        
     }
 </script>
+
+{% assign my_category = site.data.category[page.category] %}
 <aside class="page-sidebar">
     <button class="sidebar-toggler" onclick="toggleSidebar()">
         <i class="fas fa-chevron-left"></i>
     </button>
-    <div class="sidebar-content">
+    <nav class="sidebar-content">
+        <ul>
+            <li>
+                <a href="/">Home Page</a>
+            </li>
+            <li>
+                <a href="{{site.repository}}">Git Repository</a>
+            </li>
+            {% if my_category %}
+                <li>
+                    <a href="{{my_category.directory_path}}">{{my_category.directory_name}}</a>
+                </li>
+            {% endif %}
+        </ul>
+        <hr/>
         {{ content | toc_only }}
-    </div>
+    </nav>
 </aside>

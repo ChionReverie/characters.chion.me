@@ -1,4 +1,4 @@
-[ ] Add Navbar Links:
+[X] Add Navbar Links:
 - Link homepage
 - Link Github
 - Link current character's category directory
