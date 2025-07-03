@@ -9,6 +9,14 @@
   @include vars.flex_child_size;
 
   cursor: pointer;
+
+  img {
+    width: 100%;
+  }
+  figcaption {
+    text-align: center;
+    padding: 0.25rem;
+  }
 }
 
 .gallery_instructions {
@@ -26,13 +34,13 @@
   }
 }
 @media (min-width: map.get(vars.$breakpoints, "sm")) and 
-      (max-width: map.get(vars.$breakpoints, "lg")) {
+      (max-width: map.get(vars.$breakpoints, "md")) {
   .gallery {
-    --entries-per-row: 4;
+    --entries-per-row: 3;
   }
 }
-@media (min-width: map.get(vars.$breakpoints, "lg")) {
+@media (min-width: map.get(vars.$breakpoints, "md")) {
   .gallery {
-    --entries-per-row: 6;
+    --entries-per-row: 4;
   }
 }

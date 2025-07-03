@@ -3,12 +3,19 @@ layout: article
 name: Andi Miler
 category: rpg
 permalink: /rpg/andi
+thumbnail: /assets/gallery/Andi_comm.thumb.webp
 toc: true
 ---
 
 # Andrea 'Andi' Miller
 
-As a child, Andi was always inventive, always wanting to find new and creative ways to help others. After a terrible accident with the windmill in her teenage years which resulted in the loss of her arm, Andi changed. She became more driven, refusing to let anything slow her down. She designed prototype after prototype of a mechanical hand. But then, on Andi's 18th birthday, a mysterious package arrived. A strange magical gem, a treasure map, and a set of coordinates. She heard the call to adventure, a mystery that needed to be solved. With this, Andi bid farewell to her fathers and begun the long trek to Cearivan.
+<img src="{{page.thumbnail}}" class="article_art">
+
+As a child, Andi was always inventive, always wanting to find new and creative ways to help others. After a terrible accident with the windmill in her teenage years which resulted in the loss of her arm, Andi changed. She became more driven, refusing to let anything slow her down. She designed prototype after prototype of a mechanical hand. 
+
+But then, on Andi's 18th birthday, a mysterious package arrived. A strange magical gem, a treasure map, and a set of coordinates. She heard the call to adventure, a mystery that needed to be solved. With this, Andi bid farewell to her fathers and begun the long trek to Cearivan.
+
+<hr class="artice_excerpt_end">
 
 ## Basics
 

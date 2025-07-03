@@ -1,0 +1,27 @@
+@use "sass:map";
+@use "variables" as vars;
+
+.article_art {
+    display: block;
+    margin: 1rem;
+    max-width: 12rem;
+}
+
+.artice_excerpt_end {
+    clear: right;
+}
+
+
+/** 
+ * Fields
+ */
+@media(max-width: map.get(vars.$breakpoints, "sm")) {
+  .article_art {
+    margin: auto;
+  }
+}
+@media (min-width: map.get(vars.$breakpoints, "sm")) {
+  .article_art {
+    float: right;
+  }
+}

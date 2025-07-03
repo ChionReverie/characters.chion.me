@@ -1,9 +1,9 @@
 {% assign gallery_set = site.data.gallery[include.gallery] %}
-<p class="gallery_instructions">Select a thumnnail for a full-size version.</p>
+<p class="gallery_instructions">Select a thumbnail for a full-size version.</p>
 <div class="gallery row" data-bs-toggle="modal" data-bs-target="#galleryModal">
 {% for entry in gallery_set %}
     <div class="gallery_entry">
-        <img class="w-100" src="{{entry[1].thumb}}" data-bs-target="#carouselGallery" data-bs-slide-to="{{forloop.index0}}">
+        <img src="{{entry[1].thumb}}" data-bs-target="#carouselGallery" data-bs-slide-to="{{forloop.index0}}">
     </div>
 {% endfor %}
 </div>
