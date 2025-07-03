@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 name: Larias Softshadow
 category: turtle
 permalink: /turtle/larias
