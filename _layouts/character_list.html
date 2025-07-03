@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>{{page.title}}</h1>
+
+{{content}}
+
+<ul>
+{% assign my_characters = site.characters | where: "category", page.category_name %}
+{% for character in my_characters %}
+    <li>
+        <a href="{{character.url}}">{{character.name}}</a>
+    </li>
+{% endfor %}
+</ul>

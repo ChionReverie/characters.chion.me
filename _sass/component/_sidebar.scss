@@ -1,0 +1,43 @@
+// See _layout.scss for rules for the sidebar in relations to page layout.
+@use "sass:map";
+@use "variables" as vars;
+
+.page-sidebar {
+  color: var(--text-color);
+  background-color: var(--sidebar-bg);
+}
+
+.sidebar-toggler {
+  position: absolute;
+  right: -1.25rem;
+  top: vars.$site-padding;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2pt solid var(--main-bg);
+  background-color: var(--sidebar-bg);
+  border-radius: 50%;
+}
+
+@media(min-width: map.get(vars.$breakpoints, "md")) {
+  .sidebar-toggler {
+    display: none;
+  }
+}
+
+ul#toc {
+  list-style: none;
+  padding-inline-start: 0;
+  & ul {
+    list-style: none;
+    padding-inline-start: 1rem;
+  }
+}
+li.toc-entry {
+  a {
+    color: var(--sidebar-link-color);
+    text-decoration: none;
+  }
+  a.active {
+    color: var(--sidebar-link-color-active);
+  }
+}

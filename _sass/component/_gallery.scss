@@ -1,0 +1,30 @@
+@use "sass:map";
+@use "variables" as vars;
+
+.gallery {
+  @include vars.flex_container_size;
+}
+
+.gallery_entry {
+  @include vars.flex_child_size;
+}
+
+/** 
+ * Gallery
+ */
+@media (max-width: map.get(vars.$breakpoints, "sm")) {
+  .gallery {
+    --entries-per-row: 2;
+  }
+}
+@media (min-width: map.get(vars.$breakpoints, "sm")) and 
+      (max-width: map.get(vars.$breakpoints, "lg")) {
+  .gallery {
+    --entries-per-row: 4;
+  }
+}
+@media (min-width: map.get(vars.$breakpoints, "lg")) {
+  .gallery {
+    --entries-per-row: 6;
+  }
+}

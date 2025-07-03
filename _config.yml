@@ -1,0 +1,26 @@
+url: "https://characters.chion.me" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Chion's Characters" # the name of your site, e.g. ACME Corp.
+
+collections:
+  characters:
+    output: true
+
+plugins:
+  - jekyll-toc
+
+toc:
+  max_level: 3
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.MD

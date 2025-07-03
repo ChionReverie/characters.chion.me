@@ -1,0 +1,14 @@
+<script>
+    function toggleSidebar(params) {
+        const sidebar = document.querySelector('.page-sidebar');
+        sidebar.classList.toggle('active');        
+    }
+</script>
+<aside class="page-sidebar">
+    <button class="sidebar-toggler" onclick="toggleSidebar()">
+        <i class="fas fa-chevron-left"></i>
+    </button>
+    <div class="sidebar-content">
+        {{ content | toc_only }}
+    </div>
+</aside>

@@ -1,0 +1,62 @@
+@use "sass:map";
+@use "variables" as vars;
+
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  overflow-y: hidden;
+  
+  color: var(--text-color);
+  background-color: var(--main-bg);
+}
+
+.page-sidebar {
+  z-index: 1;
+  position: relative;
+  width: 18rem;
+  min-width: 18rem;
+  height: 100%;
+}
+
+@media(max-width: map.get(vars.$breakpoints, "md")) {
+  .page-sidebar {
+    position: absolute;
+  }
+
+  .page-sidebar:not(.active) {
+    transform: translateX(calc(-18rem + 3rem));
+    transition: transform 0.5s ease;
+  }
+  .page-sidebar.active {
+    transform: translateX(0);
+    transition: transform 0.5s ease;
+  }
+
+  .page-main {
+    margin-left: 2.5rem;
+  }
+}
+
+.sidebar-content {
+  width: 100%;
+  height: 100%;
+  padding: vars.$site-padding;
+  overflow-y: scroll;
+}
+
+.page-main {
+  flex-grow: 1;
+  overflow-y: scroll;
+  padding: vars.$site-padding;
+
+}
+.character-wrapper {
+  max-width: 50rem;
+  margin: auto;
+}

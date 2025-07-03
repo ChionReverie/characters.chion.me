@@ -1,0 +1,25 @@
+$site-padding: 3rem;
+
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+@mixin flex_container_size {
+  --entries-per-row: 2;
+  --gap: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap);
+}
+
+@mixin flex_child_size {
+  width: calc((100% - ((var(--entries-per-row) - 1) * var(--gap))) / (var(--entries-per-row)));
+}

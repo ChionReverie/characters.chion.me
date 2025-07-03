@@ -1,0 +1,27 @@
+@use "sass:map";
+@use "variables" as vars;
+
+.list_list {
+  @include vars.flex_container_size;
+}
+.list_heading {
+  font-weight: bold;
+}
+
+.list_list_entry {
+  @include vars.flex_child_size;
+}
+
+/** 
+ * Fields
+ */
+@media(max-width: map.get(vars.$breakpoints, "sm")) {
+  .list_list {
+    --entries-per-row: 1;
+  }
+}
+@media (min-width: map.get(vars.$breakpoints, "sm")) {
+  .list_list {
+    --entries-per-row: 2;
+  }
+}
