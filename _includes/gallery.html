@@ -2,9 +2,12 @@
 <p class="gallery_instructions">Select a thumbnail for a full-size version.</p>
 <div class="gallery row" data-bs-toggle="modal" data-bs-target="#galleryModal">
 {% for entry in gallery_set %}
-    <div class="gallery_entry">
+    <figure class="gallery_entry">
         <img src="{{entry[1].thumb}}" data-bs-target="#carouselGallery" data-bs-slide-to="{{forloop.index0}}">
-    </div>
+        {% if entry[1].description %}
+            <figcaption>{{entry[1].description}}</figcaption>
+        {% endif %}
+    </figure>
 {% endfor %}
 </div>
 

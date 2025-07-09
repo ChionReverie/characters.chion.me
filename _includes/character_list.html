@@ -5,6 +5,13 @@
     {% assign my_characters = site.characters | where: "category", include.category %}    
 {% endif %}
 
+{% assign my_characters = my_characters | where_exp:"item", "item.draft != true" %}
+
+
+{% if my_characters.size == 0 %}
+    <p>Oops! There doesn't seem to be anything here.</p>
+{% endif %}
+
 {% for character in my_characters %}
     <a href="{{character.url}}" class="gallery_entry">
         <figure>

@@ -2,8 +2,8 @@
 layout: article
 name: Andi Miler
 category: rpg
-permalink: /rpg/andi
-thumbnail: /assets/gallery/Andi_comm.thumb.webp
+permalink: /rpg/andi.html
+thumbnail: /assets/gallery/andi/Andi_comm.thumb.webp
 toc: true
 ---
 
@@ -15,7 +15,7 @@ As a child, Andi was always inventive, always wanting to find new and creative w
 
 But then, on Andi's 18th birthday, a mysterious package arrived. A strange magical gem, a treasure map, and a set of coordinates. She heard the call to adventure, a mystery that needed to be solved. With this, Andi bid farewell to her fathers and begun the long trek to Cearivan.
 
-<hr class="artice_excerpt_end">
+<hr class="artice_art_end">
 
 ## Basics
 

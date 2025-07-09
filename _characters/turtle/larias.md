@@ -2,7 +2,9 @@
 layout: article
 name: Larias Softshadow
 category: turtle
-permalink: /turtle/larias
+permalink: /turtle/larias.html
+toc: true
+draft: true
 ---
 
 # Larias Softshadow

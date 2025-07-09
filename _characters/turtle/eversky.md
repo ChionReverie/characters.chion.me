@@ -2,8 +2,9 @@
 layout: article
 name: Ilyana Eversky
 category: turtle
-permalink: /turtle/eversky
+permalink: /turtle/eversky.html
 toc: true
+draft: true
 ---
 
 # Ilyana Eversky

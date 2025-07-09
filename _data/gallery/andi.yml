@@ -1,9 +1,9 @@
 reference:
-  thumb: "/assets/gallery/Andi-Miller-2.thumb.webp"
-  max: "/assets/gallery/Andi-Miller-2.max.webp"
+  thumb: "/assets/gallery/andi/Andi-Miller-2.thumb.webp"
+  max: "/assets/gallery/andi/Andi-Miller-2.max.webp"
 lofi:
-  thumb: "/assets/gallery/Andi-Lofi.thumb.webp"
-  max: "/assets/gallery/Andi-Lofi.max.webp"
+  thumb: "/assets/gallery/andi/Andi-Lofi.thumb.webp"
+  max: "/assets/gallery/andi/Andi-Lofi.max.webp"
 commission:
-  thumb: "/assets/gallery/Andi_comm.thumb.webp"
-  max: "/assets/gallery/Andi_comm.max.webp"
+  thumb: "/assets/gallery/andi/Andi_comm.thumb.webp"
+  max: "/assets/gallery/andi/Andi_comm.max.webp"

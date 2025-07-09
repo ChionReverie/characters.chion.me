@@ -13,18 +13,25 @@
     <nav class="sidebar-content">
         <ul>
             <li>
-                <a href="/">Home Page</a>
-            </li>
-            <li>
-                <a href="{{site.repository}}">Git Repository</a>
+                <a href="{{ "/" | relative_url }}">Home Page</a>
             </li>
             {% if my_category %}
                 <li>
-                    <a href="{{my_category.directory_path}}">{{my_category.directory_name}}</a>
+                    <a href="{{my_category.directory_path | relative_url}}">{{my_category.directory_name}}</a>
                 </li>
             {% endif %}
         </ul>
         <hr/>
         {{ content | toc_only }}
+        <hr/>
+
+        <ul>
+            <li>
+                <a href="{{ "/commissions.html" }}">Art Commissions</a>
+            </li>
+            <li>
+                <a href="{{site.repository}}">Git Repository</a>
+            </li>
+        </ul>
     </nav>
 </aside>

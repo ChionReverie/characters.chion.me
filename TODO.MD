@@ -6,3 +6,7 @@
 [ ] Write a default theme
 
 [ ] Find alternate client-side page-rendering options
+
+[ ] Fix the issue where gallery modal resizes awkwarkdly
+
+[ ] Embeds
