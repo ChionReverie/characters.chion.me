@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Chion's Character Directory
 permalink: /
 ---
 

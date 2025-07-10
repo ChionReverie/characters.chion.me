@@ -1,13 +1,12 @@
 ---
 layout: article
 name: Andi Miler
+title: Andrea 'Andi' Miller
 category: rpg
 permalink: /rpg/andi.html
 thumbnail: /assets/gallery/andi/Andi_comm.thumb.webp
 toc: true
 ---
-
-# Andrea 'Andi' Miller
 
 <img src="{{page.thumbnail}}" class="article_art">
 

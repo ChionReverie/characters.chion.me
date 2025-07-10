@@ -10,7 +10,12 @@
 
   cursor: pointer;
 
+  &:hover img {
+    box-shadow: 0px 0px 10px 2px var(--link-color);
+  }
+
   img {
+    border: 2pt solid var(--main-bg);
     width: 100%;
   }
   figcaption {

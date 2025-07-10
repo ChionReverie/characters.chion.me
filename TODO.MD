@@ -10,3 +10,5 @@
 [ ] Fix the issue where gallery modal resizes awkwarkdly
 
 [ ] Embeds
+
+[ ] UX issue: Readers aren't clicking gallery thumbnails.
