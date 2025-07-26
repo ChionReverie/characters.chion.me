@@ -3,7 +3,7 @@ layout: article
 name: Andi Miler
 title: Andrea 'Andi' Miller
 category: rpg
-permalink: /rpg/andi.html
+permalink: /profile/andi.html
 thumbnail: /assets/gallery/andi/Andi_comm.thumb.webp
 toc: true
 ---

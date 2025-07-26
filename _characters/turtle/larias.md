@@ -3,7 +3,7 @@ layout: article
 name: Larias Softshadow
 title: Larias Softshadow
 category: turtle
-permalink: /turtle/larias.html
+permalink: /profile/larias.html
 toc: true
 draft: true
 ---

@@ -3,7 +3,7 @@ layout: article
 name: Ilyana Eversky
 title: Ilyana Eversky
 category: turtle
-permalink: /turtle/eversky.html
+permalink: /profile/eversky.html
 thumbnail: "/assets/gallery/eversky/portrait_celryn.thumb.webp"
 toc: true
 ---
