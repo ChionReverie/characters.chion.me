@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 body {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
@@ -12,4 +12,35 @@ h1, h2, h3, h4, h5, h6 {
 .page-main a {
   color: var(--link-color);
   text-decoration: none;
+}
+
+
+.storyblock {
+  border: 2pt solid var(--sidebar-bg);
+  border-radius: 1rem;
+  overflow: hidden;
+
+  margin-bottom: 1rem;
+
+  p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.block-heading {
+  // border-bottom: 1px solid var(--text-color);
+  padding: 1rem;
+  background-color: var(--sidebar-bg);
+}
+
+.quoteblock {
+  font-family: "kalam", cursive;
+  font-weight: normal;
+  font-style: normal;
+
+  // border: 2px solid #241b37;
+  p {
+    margin: 1rem;
+  }
 }
