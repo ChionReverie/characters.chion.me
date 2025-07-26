@@ -5,7 +5,7 @@
     }
 </script>
 
-{% assign my_category = site.data.category[page.category] %}
+{% comment %} {% assign my_category = site.data.category[page.category] %} {% endcomment %}
 <aside class="page-sidebar">
     <button class="sidebar-toggler" onclick="toggleSidebar()">
         <i class="fas fa-chevron-left"></i>
@@ -15,11 +15,11 @@
             <li>
                 <a href="{{ "/" | relative_url }}">Home Page</a>
             </li>
-            {% if my_category %}
+            {% comment %} {% if my_category %}
                 <li>
                     <a href="{{my_category.directory_path | relative_url}}">{{my_category.directory_name}}</a>
                 </li>
-            {% endif %}
+            {% endif %} {% endcomment %}
         </ul>
         <hr/>
         {{ content | toc_only }}

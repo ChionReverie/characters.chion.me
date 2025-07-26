@@ -1,0 +1,11 @@
+cat:
+  thumb: "/assets/gallery/frontpage/cat.thumb.webp"
+  max: "/assets/gallery/frontpage/cat.max.webp"
+emoji_ilyana_thinking:
+  # Thumbnail version has rendering issues, 
+  # so I had to use max size.
+  thumb: "/assets/gallery/frontpage/emoji_ilyana_thinking.max.webp"
+  max: "/assets/gallery/frontpage/emoji_ilyana_thinking.max.webp"
+catform_plush:
+  thumb: "/assets/gallery/frontpage/catform-plush.thumb.webp"
+  max: "/assets/gallery/frontpage/catform-plush.max.webp"

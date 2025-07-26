@@ -10,3 +10,7 @@ horse:
   thumb: "/assets/gallery/commission/horse.thumb.webp"
   max: "/assets/gallery/commission/horse.max.webp"
   description: "$15 Detailed Sketch"
+catform:
+  thumb: "/assets/gallery/commission/catform-plush.thumb.webp"
+  max: "/assets/gallery/commission/catform-plush.max.webp"
+  description: "$15 Detailed Sketch"

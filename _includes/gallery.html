@@ -1,5 +1,7 @@
 {% assign gallery_set = site.data.gallery[include.gallery] %}
+{% if include.nohint == nil %}
 <p class="gallery_instructions">Select a thumbnail for a full-size version.</p>
+{% endif %}
 <div class="gallery row" data-bs-toggle="modal" data-bs-target="#galleryModal">
 {% for entry in gallery_set %}
     <figure class="gallery_entry">

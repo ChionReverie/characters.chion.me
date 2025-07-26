@@ -1,6 +1,6 @@
 url: "https://chion.me" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Chion's Character Directory" # the name of your site, e.g. ACME Corp.
+title: "Chion.me" # the name of your site, e.g. ACME Corp.
 repository: "https://github.com/ChionReverie/chion.me"
 
 collections:
