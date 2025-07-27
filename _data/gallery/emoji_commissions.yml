@@ -1,0 +1,15 @@
+# The thumbnails look bad when scaled up, 
+# so I use max resolution versions
+# I will need to eventually just resize them properly.
+emoji_thinking:
+  thumb: "/assets/gallery/commission/emoji/emoji_thinking.max.webp"
+  max: "/assets/gallery/commission/emoji/emoji_thinking.max.webp"
+  description: "Thinking Ilyana"
+emoji_flustered:
+  thumb: "/assets/gallery/commission/emoji/emoji_flustered.max.webp"
+  max: "/assets/gallery/commission/emoji/emoji_flustered.max.webp"
+  description: "Flustered Ilyana"
+emoji_excited:
+  thumb: "/assets/gallery/commission/emoji/emoji_excited.max.webp"
+  max: "/assets/gallery/commission/emoji/emoji_excited.max.webp"
+  description: "Excited Ilyana"

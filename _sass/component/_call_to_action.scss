@@ -8,3 +8,9 @@ a.call-to-action {
     margin: auto;
     border-radius: 2rem;
 }
+
+.btn-container:has(.kofi-button) {
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+}

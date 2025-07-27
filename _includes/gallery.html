@@ -2,7 +2,7 @@
 {% if include.nohint == nil %}
 <p class="gallery_instructions">Select a thumbnail for a full-size version.</p>
 {% endif %}
-<div class="gallery row" data-bs-toggle="modal" data-bs-target="#galleryModal">
+<div class="gallery row" data-bs-toggle="modal" data-bs-target="#galleryModal{{include.name}}">
 {% for entry in gallery_set %}
     <figure class="gallery_entry">
         <img src="{{entry[1].thumb}}" data-bs-target="#carouselGallery" data-bs-slide-to="{{forloop.index0}}">
@@ -13,14 +13,14 @@
 {% endfor %}
 </div>
 
-<div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade" id="galleryModal{{include.name}}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div id="carouselGallery" class="carousel slide">
+                <div id="carouselGallery{{include.name}}" class="carousel slide">
                     <div class="carousel-inner">
                         {% assign active_class = " active" %}
                         {% for entry in gallery_set %}
@@ -30,11 +30,11 @@
                             {% assign active_class = "" %}
                         {% endfor %}
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery{{include.name}}" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery{{include.name}}" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
