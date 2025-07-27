@@ -2,6 +2,16 @@
 
 This is a jekyll site!
 
+```bash
+bundle exec jekyll serve -c _config.yml,_secrets.yml
+```
+
+## Secrets File
+
+```yml
+turnstile_key: # API Key for Cloudflare Turnstile
+```
+
 ## Cloudflare Site Setup
 
 This guidance should only really matter for Chion, the owner of the site.

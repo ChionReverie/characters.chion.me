@@ -1,0 +1,69 @@
+---
+layout: default
+title: Contact Me
+permalink: /contact.html
+---
+
+<h1>Contact Chion</h1>
+
+{% capture "captured_markdown" %}
+  If you're contacting me about a commission, provide any relevant details, including:
+  
+  * The type of piece you want made
+  * A textual description of what you want drawn, including Species, Pose, Colors, and what the art means to you.
+  * Links to any visual reference you wish to provide. (References are required for Emoji commissions).
+
+  I will respond to your message as soon as I can!
+{% endcapture %}
+
+  {{captured_markdown | markdownify}}
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+<form action="https://chion.me/api/sendEmail" method="post" style="display: grid; gap: 1rem">
+  <div class="row">
+    <div class="form-group col">
+      <label for="name">Your Name</label>
+      <input type="text" class="form-control" name="name" id="name" required />
+    </div>
+          
+    <div class="form-group col">
+      <label for="pronouns">Your Pronouns</label>
+      <input type="text" class="form-control" name="pronouns" id="pronouns" required />
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Your Email</label>
+    <input type="email" class="form-control" name="email" id="email" required />
+  </div>
+
+  <hr />
+
+  <div class="form-group">
+    <label for="subject">Subject</label>
+    <input type="text" class="form-control" name="subject" id="subject" required />
+  </div>
+
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea class="form-control" name="message" id="message" rows="8" required> </textarea>
+  </div>
+
+  <!-- Cloudflare Turnstile -->
+  <div class="cf-turnstile" data-sitekey="{{site.turnstile_key}}" data-callback="enableSubmit"></div>
+
+  <button type="submit" id="submit-button" class="btn call-to-action" disabled>Send!</button>
+</form>
+
+<script>
+  function enableSubmit() {
+    document.getElementById("submit-button").disabled = false;
+  }
+</script>
+
+<hr>
+
+<p style="text-align: center">
+  <a href="/">Return home</a> or <a href="javascript:history.back()">go back</a>?
+</p>

@@ -5,15 +5,11 @@ toc: true
 permalink: /commissions.html
 ---
 
-Prices are in USD. I accept payment over [Ko-Fi](https://ko-fi.com/U7U81HPC7S)
-
----
-
 ## Critter Sketch
 
 This is the style I developed to draw plushies for my WoW character, Ilyana Eversky. 
 
-**Price**: $12
+**Price**: $12 USD
 
 **Addons**:
 * +50% per color variant
@@ -27,7 +23,7 @@ This is the style I developed to draw plushies for my WoW character, Ilyana Ever
 
 Cute emojis for your discord server!
 
-**Price**: $12 for 1 emoji, or $30 for 3
+**Price**: $12 USD for 1 emoji, or $30 USD for 3
 
 **Note**: For Emoji characters, you *must* provide a visual reference. Even just a screenshot of a character model in an MMO is enough.
 
@@ -51,7 +47,9 @@ Cute emojis for your discord server!
 </div> -->
 
 ## How to Order
-To order from me, please contact me via email ([chionreverie@gmail.com](mailto:chionreverie@gmail.com)) or via discord (@chionreverie) if we share a mutual server or friends.
+To order from me, please contact me via my email form or via Discord (@chionreverie) if we share a mutual server or friends.
+
+[Message Me!](/contact.html){:.call-to-action.btn}
 
 In your message, provide details of the commission, including:
   * The type of piece you want made
