@@ -5,6 +5,10 @@ toc: true
 permalink: /commissions.html
 ---
 
+<p data-insert="commission-status" style="font-size:125%; height: 2.5rem; text-align: center;">
+</p>
+
+
 ## Critter Sketch
 
 This is the style I developed to draw plushies for my WoW character, Ilyana Eversky. 

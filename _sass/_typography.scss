@@ -44,3 +44,18 @@ h1, h2, h3, h4, h5, h6 {
     margin: 1rem;
   }
 }
+
+.strict-centered-text {
+  font-size: 125%; 
+  min-height: 4.5em;
+  line-height: 4.5em;
+  text-align: center;
+
+  vertical-align: middle;
+  p {
+    line-height: 1.5em;
+    display: inline-block;
+    text-align: center; 
+    margin: 0;
+  }
+}

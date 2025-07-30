@@ -8,8 +8,11 @@ permalink: /
 
 ## Art Work
 
-My commissions are currently <strong>Open</strong>!
-{:style="font-size:125%; text-align: center;"}
+<div class="strict-centered-text">
+    <p data-insert="commission-status" data-default-text="I do commissions!">
+        <noscript>I do commissions!</noscript>
+    </p>
+</div>
 
 {% include gallery.html gallery='frontpage' nohint=true %}
 
